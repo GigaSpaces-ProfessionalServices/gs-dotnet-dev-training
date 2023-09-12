@@ -28,7 +28,7 @@ namespace BillBuddy.Space.Services
         {
             Utility.LogHeader("Start Platinum Merchant service");
 
-            SqlQuery<Merchant> platinumMerchantQuery = new SqlQuery<Merchant>(" order by feeAmount desc");
+            SqlQuery<Merchant> platinumMerchantQuery = new SqlQuery<Merchant>(" order by FeeAmount desc");
 
             Merchant[] platinumMerchants = _spaceProxy.ReadMultiple<Merchant>(platinumMerchantQuery, 5);
 
