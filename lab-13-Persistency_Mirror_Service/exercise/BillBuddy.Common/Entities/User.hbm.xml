@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<hibernate-mapping  auto-import="true"
+										default-lazy="true"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										namespace="BillBuddy.Common.Entities"
+										assembly="BillBuddy.Common"
+										xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BillBuddy.Common.Entities.User" table="Users">
+    <id name="UserAccountId"
+				access="property"
+        column="UserAccountId"
+        unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="Name" />
+    <property name="Balance" />
+    <property name="CreditLimit" />
+    <property name="Status" />
+    <property name="Address" />
+
+  </class>
+</hibernate-mapping>
+

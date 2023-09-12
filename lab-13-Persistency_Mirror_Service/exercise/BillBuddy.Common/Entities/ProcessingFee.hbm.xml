@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" ?>
+<hibernate-mapping  auto-import="true"
+										default-lazy="true"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										namespace="BillBuddy.Common.Entities"
+										assembly="BillBuddy.Common"
+										xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BillBuddy.Common.Entities.ProcessingFee"
+				 table="ProcessingFees">
+    <id name="ProcessingFeeId"
+				access="property"
+				column="ProcessingFeeId"
+				type="String">
+      <generator class="assigned" />
+    </id>
+    
+    <property name="PayingAccountId" />
+    <property name="Description" />
+    <property name="Amount" />
+    <property name="Status" />
+    <property name="CreatedDate" />
+    <property name="DependentPaymentId" />
+  </class>
+</hibernate-mapping>
+
