@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<hibernate-mapping  auto-import="true"
+										default-lazy="true"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										namespace="BillBuddy.Common.Entities"
+										assembly="BillBuddy.Common"
+										xmlns="urn:nhibernate-mapping-2.2">
+  <class name="//TODO" table="Merchants">
+    <id name="MerchantAccountId"
+				access="property"
+				column="MerchantAccountId"				
+        unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+
+    <property name="Name" />
+    <property name="Category" />
+    <property name="Status" />
+    <property name="Receipts" />
+    <property name="FeeAmount" />
+  </class>
+</hibernate-mapping>
+
