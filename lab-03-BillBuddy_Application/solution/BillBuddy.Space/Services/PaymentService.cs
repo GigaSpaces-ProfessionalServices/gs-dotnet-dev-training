@@ -27,7 +27,7 @@ namespace BillBuddy.Space.Services
         {
             Utility.LogHeader("Find Top 10 payment merchant over the space");
 
-            SqlQuery<Payment> query = new SqlQuery<Payment>(" order by paymentAmount desc");
+            SqlQuery<Payment> query = new SqlQuery<Payment>(" order by PaymentAmount desc");
 
             Payment[] payments = _spaceProxy.ReadMultiple<Payment>(query, 10);
 
