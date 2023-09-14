@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GigaSpaces.Core">
-      <HintPath>..\..\..\..\..\..\..\GigaSpaces\XAP.NET-16.3.0-patch-p-3-x64\NET v4.0\Bin\GigaSpaces.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\Bin\GigaSpaces.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
