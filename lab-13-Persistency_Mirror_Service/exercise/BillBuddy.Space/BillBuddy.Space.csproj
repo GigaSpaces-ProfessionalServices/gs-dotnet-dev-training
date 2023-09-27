@@ -57,7 +57,7 @@
     </Reference>
     <Reference Include="GigaSpaces.Practices.ExternalDataSource.NHibernate, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\GigaSpaces\XAP.NET-12.2.1-x64\NET v4.0\Practices\ExternalDataSource\NHibernate\Bin\GigaSpaces.Practices.ExternalDataSource.NHibernate.dll</HintPath>
+      <HintPath>..\..\..\..\..\Practices\ExternalDataSource\NHibernate\Bin\GigaSpaces.Practices.ExternalDataSource.NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\SharedLibs\NHibernate.dll</HintPath>
