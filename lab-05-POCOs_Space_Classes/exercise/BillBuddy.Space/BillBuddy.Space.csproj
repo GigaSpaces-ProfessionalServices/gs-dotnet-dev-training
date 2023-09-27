@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GigaSpaces.Core, Version=12.2.0.0, Culture=neutral, PublicKeyToken=94297b57ee0e4ad5, processorArchitecture=AMD64">
+    <Reference Include="GigaSpaces.Core">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Bin\GigaSpaces.Core.dll</HintPath>
     </Reference>
